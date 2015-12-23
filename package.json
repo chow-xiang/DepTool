@@ -41,8 +41,8 @@
   },
   "devDependencies": {
   },
-  "main": "lib/index",
+  "main": "./lib/index",
   "bin": {
-    "dep": "bin/start.js"
+    "dep": "./bin/start.js"
   }
 }
