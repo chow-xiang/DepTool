@@ -1,0 +1,56 @@
+{
+  "name": "dep",
+  "version": "0.0.1",
+  "author": "chow xiang",
+  "repository": "",
+  "homepage": "",
+  "license": "",
+  "description": "",
+  "keywords": [
+    "AMD",
+    "RequireJS",
+    "require",
+    "module",
+    "circular",
+    "dependency",
+    "dependencies",
+    "graphviz",
+    "graph"
+  ],
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "scripts": {
+
+  },
+  "dependencies": {
+    "amdetective": "0.0.2",
+    "coffee-script": "1.3.3",
+    "colors": "^1.1.2",
+    "commander": "^2.8.1",
+    "commondir": "^1.0.1",
+    "detective": "^4.2.0",
+    "detective-es6": "1.1.2",
+    "graphviz": "0.0.8",
+    "react-tools": "^0.13.3",
+    "resolve": "^1.1.6",
+    "uglify-js": "^1.3.5",
+    "walkdir": "0.0.10",
+    "madge": "0.5.2",
+    "lodash": "3.10.1",
+    "mysql": "2.9.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-release": "^0.13.0",
+    "mocha": "^2.3.3",
+    "should": "*"
+  },
+  "main": "./lib/madge",
+  "bin": {
+    "dep": "./bin/start.js"
+  }
+}
